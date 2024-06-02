@@ -5,3 +5,8 @@
 #images
 ![image](https://github.com/cnaga342/product-landing-page/assets/163227839/792aa4de-ebda-44aa-b47c-b590960cef6c)
 
+# Tech Stack
+html5
+Css3
+
+
