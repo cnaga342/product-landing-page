@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#search1 {
+    height: 40px;
+    width: 400px;
+    font-size: 1rem;
+    border-radius: 15px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    background-color: rgb(240,245,255);
+}
+
+.search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #888;
+}
+
+.login ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.login ul li {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.login ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.material-symbols-outlined {
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+
+.img1{
+    display: flex;
+    padding: 10px;
+    
+    justify-content: space-around;
+    align-items: center;
+    margin-top:20px ;
+    width: 90%;
+    margin-left: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#img21{
+    width: 1360px;
+    margin-left:60px ;
+    margin-top:10px;
+}
+
+
+.img3{
+    margin-top:10px;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#img31{
+    border:1px solid;
+    margin-top: 10px;
+
+    width:180px;
+}
+
+#img32{
+    width:180px;
+    margin-top: 50px;
+    
+}
+
+
+.footer{
+    margin-top: 20px;
+    border:1px solid;
+    display: flex;
+    background: rgb(33,33,33);
+    text-decoration: none;
+    justify-content: space-around;
+    height: 300px;
+    
+}
+
+.footer h3{
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer ul li{
+    list-style-type: none;
+    padding: 2px;
+}
+
+.footer ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+.footer p{
+    color: white;
+}
+
+.footer2{
+    height: 50px;
+    background:rgb(33,33,33) ;
+}
+
+.footer2 ul li a{
+    text-decoration: none;
+    display: flex;
+    color: white;
+}
+
+.footer2 ul {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer2 ul li{
+    list-style-type: none;
+    margin-top:15px ;
+}
+
+
+.footer2 img{
+    margin-top:15px ; 
+}
